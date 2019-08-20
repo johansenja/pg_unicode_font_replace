@@ -1,6 +1,6 @@
 # Postgres Unicode Font Replace
 
-###Make user-inputted unicode fonts more hacker friendly.
+### Make user-inputted unicode fonts more hacker friendly.
 
 𝙪𝙣i𝙘𝙤D𝙚 => unicode
 
@@ -9,9 +9,9 @@
 C𝑜𝑜𝓁 => cool
 
 
-##Set Up
+## Set Up
 
-###With Rails/ActiveRecord
+### With Rails/ActiveRecord
   Run the following Migration
 ```ruby
 class CreateUnicodeFontReplace < ActiveRecord::Migration[YOUR_ACTIVE_RECORD_VERSION]
@@ -41,7 +41,7 @@ class CreateUnicodeFontReplace < ActiveRecord::Migration[YOUR_ACTIVE_RECORD_VERS
 end
 ```
 
-###From psql
+### From psql
 Execute from your psql command line:
 
 ```SQL
@@ -61,7 +61,7 @@ CREATE OR REPLACE FUNCTION unicode_font_replace(str TEXT) RETURNS TEXT AS $$
   END
 $$ LANGUAGE plpgsql;
 ```
-##Usage
+## Usage
 
 ```SQL
 SELECT unicode_font_replace('𝖍𝖊𝖑𝖑𝖔 🆆🅾🆁🅻🅳, fｏo bar bᴀz') # => hello world, foo bar baz
@@ -73,7 +73,7 @@ UPDATE users SET plain_description = unicode_font_replace(description)
 
 etc...
 
-##Coverage
+## Coverage
 
 I have tried to cover the most popular "fonts", but contributions are welcome for anything I have missed (see below).
 
@@ -143,10 +143,10 @@ I have tried to cover the most popular "fonts", but contributions are welcome fo
 **Punctuation**
 `❗!❓?❕!❔?`
 
-##Contribution
+## Contribution
 
 Fork, clone, pull request - all the good stuff. Bump the version number in `unicode_font_replace.sql`
 
-##License
+## License
 
 Open source, [MIT license](https://opensource.org/licenses/MIT)
