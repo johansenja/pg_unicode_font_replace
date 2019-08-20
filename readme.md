@@ -2,11 +2,11 @@
 
 ### Make user-inputted unicode fonts more hacker friendly.
 
-𝙪𝙣i𝙘𝙤D𝙚 => unicode
+𝙪𝙣𝙞𝙘𝙤𝙙𝙚 => unicode
 
-𝚒s => is
+𝚒𝚜 => is
 
-C𝑜𝑜𝓁 => cool
+𝒸𝑜𝑜𝓁 => cool
 
 
 ## Set Up
