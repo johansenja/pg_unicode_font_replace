@@ -145,7 +145,7 @@ I have tried to cover the most popular "fonts", but contributions are welcome fo
 
 ##Contribution
 
-Fork, clone, pull request - all the good stuff
+Fork, clone, pull request - all the good stuff. Bump the version number in `unicode_font_replace.sql`
 
 ##License
 
