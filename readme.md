@@ -71,6 +71,8 @@ SELECT unicode_font_replace('𝖍𝖊𝖑𝖑𝖔 🆆🅾🆁🅻🅳, fｏo ba
 UPDATE users SET plain_description = unicode_font_replace(description)
 ```
 
+I will look into building a gem around it to make it more user-friendly for Rails/ActiveRecord users if there is enough interest.
+
 etc...
 
 ## Coverage
