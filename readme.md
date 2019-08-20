@@ -136,7 +136,7 @@ I have tried to cover the most popular "fonts", but contributions are welcome fo
 **Block Filled**
 `🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉`
 
-**Native Canadian Phonetics**
+**Aboriginal Canadian Syllabics**
 `ᗩᗷᑕᗪᖴᕼᒍᒪᗰᑎᑭᑫᖇᔕᑌᐯᗯ᙭ᘔ`
 
 **Superscript**
